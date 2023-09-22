@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+</head>
+<body>
+    <h1>Product Management</h1>
+    <div>
+        <h2>Add Product</h2>
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName">
+        <label for="sellingPrice">Selling Price:</label>
+        <input type="number" id="sellingPrice">
+        <button onclick="addProduct()">Add Product</button>
+    </div>
+    <div>
+        <h2>Products</h2>
+        <ul id="productList"></ul>
+        <h2>Total Value Worth of Products: <span id="totalValue">0</span></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
